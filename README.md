@@ -21,3 +21,28 @@ CUDA: Provides GPU acceleration for faster computation, essential for handling l
 
 The project is designed to be highly efficient, utilizing hardware acceleration and optimized software libraries to deliver real-time vehicle tracking and speed detection. It is ideal for applications in traffic monitoring, autonomous driving systems, and smart city infrastructure.
 
+# Models training and testing (Data Analysis project)
+
+The primary goal of this project is to develop a robust data analysis and machine learning pipeline to predict user clicks based on user and product features. The project aims to clean and preprocess the data, explore various machine learning models, and evaluate their performance to identify the best model for predicting user behavior. This involves handling missing data, merging datasets, and applying multiple machine learning algorithms to achieve accurate predictions.
+
+Project Workflow
+
+1. Data Reading and Cleaning: The project begins by reading three CSV files: `user_features.csv`, `product_features.csv`, and `click_history.csv`. These files contain essential information about users, products, and their interaction history. The data is then cleaned by filling missing values, dropping irrelevant records, and merging the datasets based on common keys.
+
+2. Data Preprocessing: After cleaning, the data is preprocessed to ensure it is suitable for machine learning models. This includes handling missing values, normalizing data, and transforming categorical variables into numerical formats.
+
+3. Model Training and Evaluation: The project explores several machine learning models, including Logistic Regression, Gaussian Naive Bayes, Decision Tree, Neural Network, Support Vector Machines (Linear, RBF, Poly), Random Forest Classifier, and AdaBoost Classifier. Each model is trained on the preprocessed data and evaluated using metrics such as accuracy, precision, F1 score, and recall.
+
+4. Model Comparison: The performance of each model is compared to identify the best-performing model for predicting user clicks. The results are printed and analyzed to understand the strengths and weaknesses of each approach.
+
+Technologies Used
+
+- Python: The primary programming language used for data analysis and machine learning.
+- Pandas: A powerful data manipulation library used for reading, cleaning, and preprocessing data.
+- NumPy: A library for numerical computations, used for handling arrays and mathematical operations.
+- Scikit-learn: A machine learning library that provides tools for model training, evaluation, and comparison.
+- Jupyter Notebook: An interactive environment for writing and running Python code, used to document and execute the project workflow.
+
+This project demonstrates a comprehensive approach to data analysis and machine learning, from data cleaning and preprocessing to model training and evaluation. By exploring multiple machine learning models, the project aims to identify the best approach for predicting user clicks, providing valuable insights into user behavior and product interactions.
+
+
