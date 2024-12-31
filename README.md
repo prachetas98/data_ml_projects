@@ -21,7 +21,7 @@ CUDA: Provides GPU acceleration for faster computation, essential for handling l
 
 The project is designed to be highly efficient, utilizing hardware acceleration and optimized software libraries to deliver real-time vehicle tracking and speed detection. It is ideal for applications in traffic monitoring, autonomous driving systems, and smart city infrastructure.
 
-# Models training and testing (Data Analysis project)
+# Website Advertisements (Data Analysis project)
 
 The primary goal of this project is to develop a robust data analysis and machine learning pipeline to predict user clicks based on user and product features. The project aims to clean and preprocess the data, explore various machine learning models, and evaluate their performance to identify the best model for predicting user behavior. This involves handling missing data, merging datasets, and applying multiple machine learning algorithms to achieve accurate predictions.
 
